@@ -16,7 +16,7 @@ contract TodoList {
     event TaskCompleted(uint256 id, bool completed);
 
     constructor() public {
-        createTask("Check out dappuniversity.com");
+        createTask("Task #1");
     }
 
     function createTask(string memory _content) public {
